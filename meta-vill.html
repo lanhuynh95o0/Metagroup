@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head> 
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</head> 
+<body data-spy="scroll" data-target="#myScrollspy" data-offset="100">
+    <div id="menu-main"></div>
+    
+    <section id="vill-meta">
+        <div class="container-hg">
+            <div class="content">
+                <div class="row">
+                    <div class="content-1 col-12 col-lg-6 col-xl-5 wow fadeInLeft">
+                        <div class="title-small fz-52">
+                            MetaVill
+                        </div>
+                        <div class="cont fz-22">
+                            Metavill is a Social Entertainment Defi Platform. Users can easily generate NFTs then turn them into income by Shooting-to-earn feature.
+                        </div>
+                        <div class="button fz-26">
+                            <a href="https://metavill.io/" id="explore-more">Explore more</a>
+                        </div>
+                    </div>
+                    <div class="content-2 col-12 col-lg-6 col-xl-7 wow fadeInRight">
+                        <div class="video">
+                            <video loop controls poster preload>
+                                <source src="./img/meta-vill/video-METAVILL.mp4">
+                            </video>
+                            <div class="play-btn">
+                                <div class="content">
+                                    <img src="./img/meta-vill/play-btn.png" alt="play" class="play">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>            
+        </div>
+    </section>       
+
+</body>
+</html>
+<script> 
+    $(window).ready(function() {
+        $("head").load("./head.html", function(e){
+            setTimeout(function(){$.getScript("./script.js");}, 500);
+        }); 
+    });
+</script> 

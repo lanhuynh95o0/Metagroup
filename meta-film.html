@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head> 
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</head> 
+<body data-spy="scroll" data-target="#myScrollspy" data-offset="100">
+    <div id="menu-main"></div>
+    
+    <section id="meta-film">
+        <div class="container-hg">
+            <div class="content">
+                <div class="row">
+                    <div class="content-1 col-12 col-lg-6 wow fadeInLeft">
+                        <div class="tilte-big fz-98">COMING SOON</div>
+                        <div class="title-small fz-36">MetaFilm</div>
+                        <div class="cont fz-20">
+                            MetaFilm is the revolution that transform the ordinary to the extraordinary, bringing the benefit-focused diversity when experiencing in the art in every movie scene. Users can collect, gather all the valuable NFTs in exchange for greater incentives, and the privilege of "Enjoy-to-Earn" eventually.
+                        </div>
+                    </div>
+                    <div class="content-2 col-12 col-lg-6 wow fadeInRight">
+                        <div class="item-card">
+                            <div>
+                                <img src="./img/meta-film/MetaFilm.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>            
+        </div>
+    </section>       
+
+</body>
+</html>
+<script> 
+    $(window).ready(function() {
+        $("head").load("./head.html", function(e){
+            setTimeout(function(){$.getScript("./script.js");}, 500);
+        }); 
+    });
+</script> 

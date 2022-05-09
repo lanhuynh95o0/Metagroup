@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head> 
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</head> 
+<body data-spy="scroll" data-target="#myScrollspy" data-offset="100">
+    <div id="menu-main"></div>
+    
+    <section id="meta-launpad">
+        <div class="container-hg">
+            <div class="content">
+                <div class="row">
+                    <div class="content-1 col-12 col-lg-6 wow fadeInLeft">
+                        <div class="tilte-big fz-98">COMING SOON</div>
+                        <div class="title-small fz-36">MetaLaunpad</div>
+                        <div class="cont fz-20">
+                            Meta Launchpad is also known as "token launchpad for Blockchain projects".
+                            Thanks to it, many projects can easily connect with extensive ecosystems from the world's leading cryptocurrency exchanges.
+                        </div>
+                    </div>
+                    <div class="content-2 col-12 col-lg-6 wow fadeInRight">
+                        <div class="item-card-launpad">
+                            <div>
+                                <img src="./img/meta-launpad/launchpad.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>            
+        </div>
+    </section>       
+
+</body>
+</html>
+<script> 
+    $(window).ready(function() {
+        $("head").load("./head.html", function(e){
+            setTimeout(function(){$.getScript("./script.js");}, 500);
+        }); 
+    });
+</script> 

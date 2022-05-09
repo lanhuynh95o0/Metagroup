@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  </head>
+  <body data-spy="scroll" data-target="#myScrollspy" data-offset="100">
+    <div id="menu-main"></div>
+
+    <section id="exchangeable-nft">
+      <div class="container-hg">
+        <div class="content">
+          <div class="row">
+            <div class="col-12 wow fadeInLeft">
+              <div class="title">Exchangeable NFTs</div>
+              <div class="sub-title">
+                The fun part is all the available NFTs can be transferable in
+                return for either relevant items from the other field or
+                lucrative, actual assets in real life, which truly
+                differentiates METAF out from other similar entertainment
+                platforms.
+              </div>
+            </div>
+            <div class="col-12 wow fadeInRight">
+              <img src="./img/exchangeable-nft/exchangeable-nft.png" alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
+<script>
+  $(window).ready(function () {
+    $("head").load("./head.html", function (e) {
+      setTimeout(function () {
+        $.getScript("./script.js");
+      }, 500);
+    });
+  });
+</script>

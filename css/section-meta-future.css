@@ -1,0 +1,149 @@
+#section-meta-future {
+  /* background-image: url("./../img/metaf-token/bg-metaf-token.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center; */
+  position: relative;
+  padding: 12vw 15vw 10vw 15vw;
+  display: flex;
+  flex-direction: column;
+  background: unset;
+}
+.mt10 {
+  margin-top: 10px;
+}
+
+.mt40 {
+  margin-top: 40px;
+}
+
+/* Start css for bar left right */
+#section-meta-future .wrapper-bar {
+  position: relative;
+}
+#section-meta-future .img-bar-left-right {
+  width: 100%;
+  height: 470px;
+}
+.btn-layer-2 {
+  position: absolute;
+  bottom: 25px;
+  left: 50%;
+  transform: translate(-50%, 0%);
+}
+.btn-layer-1 {
+  position: absolute;
+  top: -20px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.wrapper-meta {
+  position: absolute;
+  top: 70px;
+  width: 100%;
+}
+
+.wrapper-meta .flex-center:first-child {
+  margin-bottom: 40px;
+}
+
+.wrapper-meta .wrapper-btn-meta-common {
+  padding: 2px;
+  background: linear-gradient(to right, #a4117d, #5e14b9);
+  width: 12vw;
+  border-radius: 8px;
+  margin-right: 2vw;
+}
+.wrapper-meta .wrapper-btn-meta-common:last-child {
+  margin-right: 0;
+}
+
+.wrapper-meta .btn-meta-common {
+  background: #451b7a;
+  padding: 10px;
+  text-align: center;
+  border-radius: inherit;
+  font-weight: 600;
+  font-size: 18px;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+/* End css for bar left right */
+
+/* Start css for button layer */
+#section-meta-future .line-item {
+  margin-top: 10px;
+}
+#section-meta-future .btn-layer-common {
+  background: linear-gradient(90deg, #a4117d -22.62%, #5e14b9 130.16%);
+  border-radius: 17px;
+  padding: 7px 51px;
+  cursor: pointer;
+}
+
+#section-meta-future .btn-layer-common .title {
+  font-weight: 700;
+  font-size: 24px;
+  text-align: center;
+}
+
+#section-meta-future .btn-layer-common .sub-title {
+  font-weight: 400;
+  font-size: 16px;
+  text-transform: uppercase;
+  text-align: center;
+}
+/* End css for button layer */
+
+@media (max-width: 767px) {
+  .wrapper-bar {
+    width: 88%;
+  }
+  #section-meta-future {
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 500px !important;
+    justify-content: center;
+  }
+  #section-meta-future .img-bar-left-right {
+    height: 260px;
+  }
+
+  /* Start css for bar left right */
+  .wrapper-meta {
+    top: 30px;
+  }
+  .wrapper-meta .flex-center:first-child {
+    margin-bottom: 20px;
+  }
+  .wrapper-meta .wrapper-btn-meta-common {
+    width: 25vw;
+    border-radius: 4px;
+    margin-right: 1.4vw;
+  }
+  .wrapper-meta .btn-meta-common {
+    padding: 3px;
+    font-size: 9px;
+  }
+  /* End css for bar left right */
+
+  /* Start css for button layer */
+  #section-meta-future .line-item {
+    margin-top: 10px;
+  }
+  #section-meta-future .btn-layer-common {
+    border-radius: 10px;
+    padding: 5px 15px;
+  }
+  #section-meta-future .btn-layer-common .title {
+    font-size: 9px;
+  }
+  #section-meta-future .btn-layer-common .sub-title {
+    font-size: 8px;
+  }
+  /* End css for button layer */
+}

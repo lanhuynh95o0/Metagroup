@@ -1,0 +1,135 @@
+#wrapper-section-background {
+  background-image: url("./../img/back-ground.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+#section-metaversa {
+  position: relative;
+  padding-left: 80px;
+  padding-right: 80px;
+  padding-top: 80px;
+  padding-bottom: 140px;
+}
+
+.flex-center {
+  display: flex;
+  justify-content: center;
+}
+
+/* Css for slide */
+#section-metaversa .sub-title {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+#section-metaversa .sub-title .text {
+  width: 70%;
+  font-weight: 300;
+  font-size: 18px;
+  text-align: center;
+}
+.slide-item-metaversa {
+  background: unset;
+  box-shadow: none;
+  display: flex;
+  flex-direction: column;
+}
+.slide-item-metaversa img {
+  background: unset;
+}
+.swiper-metaversa .swiper-pagination {
+  bottom: 70px !important;
+}
+
+.swiper-metaversa .swiper-pagination .swiper-pagination-bullet {
+  width: 64px !important;
+  height: 4px;
+  margin-right: 3px !important;
+  border-radius: 0 !important;
+}
+/* Css for slide */
+
+/* Css for button metaverse */
+#section-metaversa .wrapper-btn-metaverse {
+  width: 33%;
+  margin: 1px;
+  background: linear-gradient(180deg, #12275800, #408cd1, #cd1099);
+  padding: 2px;
+  border-radius: 22px;
+  margin-bottom: 30px;
+}
+
+#section-metaversa .btn-metaverse {
+  width: 100%;
+  background: #22103c;
+  padding-top: 31px;
+  padding-bottom: 31px;
+  border-radius: inherit;
+  font-weight: 700;
+  font-size: 36px;
+  text-align: center;
+  cursor: pointer;
+}
+.slide-metaversa-3 {
+  width: 100%;
+}
+/* Css for button metaverse */
+
+@media (max-width: 767px) {
+  .slide-metaversa-1 {
+    height: 180px !important;
+  }
+  .slide-metaversa-2,
+  .slide-metaversa-3 {
+    height: 100px !important;
+  }
+  .swiper-metaversa {
+    overflow: hidden;
+  }
+  #section-metaversa .sub-title {
+    font-size: 16px;
+  }
+  /* Start css for button metaverse */
+  #section-metaversa {
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 30px;
+    padding-bottom: 80px;
+  }
+
+  #section-metaversa .wrapper-btn-metaverse {
+    width: 80%;
+    border-radius: 9px;
+  }
+
+  #section-metaversa .btn-metaverse {
+    font-size: 16px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+  /* End css for button metaverse */
+
+  /* Start css for slide */
+  #section-metaversa .sub-title .text {
+    width: 90%;
+    font-size: 16px;
+  }
+  .swiper-metaversa .swiper-pagination .swiper-pagination-bullet {
+    width: 30px !important;
+  }
+  /* End css for slide */
+
+  #section-metaversa .swiper-pagination-mobile {
+    margin-top: 20px;
+    position: unset;
+  }
+}
+
+@media (max-width: 1024px) {
+  #section-metaversa .wrapper-btn-metaverse {
+    width: 80%;
+    border-radius: 9px;
+  }
+}
